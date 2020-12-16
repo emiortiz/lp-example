@@ -136,6 +136,15 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.nav-menu .boton-app{
+  background: #ef6603;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+
+
+
 .nav-menu .drop-down ul {
   display: block;
   position: absolute;
@@ -489,21 +498,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+/*--------------------------------------------------------------
+# PC carrusel
+--------------------------------------------------------------*/
+
 .pc-fondo{
-  width: 644px;
+  width: 500px;
   margin: 0 auto;
   padding-top: 25px;
-  background-image:url("assets/img/laptop.png");
+  background: url("../img/laptop.png");
 }
 
 .carousel{
-  width: 463px;
-  height: 292px;
-  margin-left: 88px;
+  width: 413px;
+  height: 201px;
+  margin-left: 69px;
   margin-bottom: 100px;
 }
-
-
 
 
 /*--------------------------------------------------------------
