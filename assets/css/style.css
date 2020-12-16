@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .title{
   padding-top: 120px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 #hero h2 {
@@ -496,6 +496,21 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: translate(85px, 0%);
   }
+}
+
+.cta-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #ef6603;
+  margin-top: 30px;
 }
 
 
